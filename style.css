@@ -23,14 +23,22 @@
     font-family: cursive;
     color: crimson;
   }
+
   .recipe {
     background-color: coral;
+    border-radius: 4px;
     margin: 10;
     padding: 10;
   }
 
+  .recipe span,p,article {
+    padding-left: 5px;
+  }
+
   #recipe-name{
     background-color: rgb(216, 196, 189);
+    text-align: center;
+    border-radius: 4px;
   }
 
   h1,

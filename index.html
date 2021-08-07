@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Vue CDN fetch API</title>
+    <title>Greg's Recipes | Vue CDN fetch API</title>
 </head>
 <body>
     <h1 id = "banner">Greg's Instant Pot Ultra-Mini Recipes</h1>
@@ -13,11 +13,11 @@
       <div v-for="item in recipes"> 
        <div class = "recipe">
          <h3 id = "recipe-name">{{ item.name }}</h3>
-         <span>Ingredients>> {{ item.ingredients }}</span>
-         <article>Procedure:{{item.procedure}}</article>
-         <p>Costs:{{item.costs}}</p>
+         <span><b>Ingredients: </b>{{ item.ingredients }}</span>
+         <article><b>Procedure: </b>{{item.procedure}}</article>
+         <p><b>Costs: </b>{{item.costs}}</p>
          <br>
-         <article>{{item.notes}}</article>   
+         <article><i>{{item.notes}}</i></article>   
        </div> 
        <br> 
       </div>
