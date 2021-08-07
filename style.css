@@ -13,17 +13,30 @@
     width: 400px;
     height: 100vh;
     margin: auto;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
-  
+  #banner{
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    color: crimson;
+  }
+  .recipe {
+    background-color: coral;
+    margin: 10;
+    padding: 10;
+  }
+
+  #recipe-name{
+    background-color: rgb(216, 196, 189);
+  }
+
   h1,
   h3 {
-    margin-bottom: 1rem;
-    font-weight: normal;
+    font-weight: bold;
+    text-align: left;
   }
   
   button {

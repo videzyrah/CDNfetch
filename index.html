@@ -8,10 +8,18 @@
     <title>Vue CDN fetch API</title>
 </head>
 <body>
+    <h1 id = "banner">Greg's Instant Pot Ultra-Mini Recipes</h1>
     <div id ="app">
       <div v-for="item in recipes"> 
-       <h3>Recipe: {{ item.name }}</h3>
-       <p>{{ item.description }}</p>    
+       <div class = "recipe">
+         <h3 id = "recipe-name">{{ item.name }}</h3>
+         <span>Ingredients>> {{ item.ingredients }}</span>
+         <article>Procedure:{{item.procedure}}</article>
+         <p>Costs:{{item.costs}}</p>
+         <br>
+         <article>{{item.notes}}</article>   
+       </div> 
+       <br> 
       </div>
     </div>
     <script src="https://unpkg.com/vue@next"></script>
