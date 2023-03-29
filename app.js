@@ -5,7 +5,7 @@ const app = Vue.createApp({
       } 
     },
     mounted: function() {
-      fetch('https://gstulldjangorestapi.herokuapp.com/recipes/', {
+      fetch('https://gregstull.fly.dev/recipes/', {
         method: 'get'
       })
       .then((response) => {
